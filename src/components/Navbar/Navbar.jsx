@@ -11,21 +11,13 @@ const Navbar = () => {
         <div className='navbar'>
             <div className="wrapper">
                 <div className="left">
-                    <div className="item">
-                        <Link to="/products/1">
-                            <ArrowBackIcon />
-                        </Link>
-                    </div>
                 </div>
                 <div className="center">
-                    <Link to="/">MANOLO</Link>
+                    <Link to="/">
+                        <img class="logo" src="img/manolo-logo.png" alt="" />
+                    </Link>
                 </div>
                 <div className="right">
-                    <div className="item">
-                        <Link to="/products/2">
-                            <SegmentIcon />
-                        </Link>
-                    </div>
                 </div>
             </div>
         </div>

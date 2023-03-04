@@ -1,5 +1,10 @@
 .navbar {
-    height: fit-content;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    max-width: 320px;
 
     .wrapper {
         display: flex;
@@ -7,9 +12,9 @@
         align-items: center;
         background: #fff;
         padding: 8px;
-        margin: 16px 16px 8px;
+        margin: 0 auto;
         border-radius: 8px;
-        box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
 
         .left,
         .right {
@@ -53,6 +58,18 @@
             justify-content: center;
             font-size: 18px;
             font-weight: 700;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .logo {
+                width: 32px;
+                height: 32px;
+                color: gray;
+            }
         }
 
 

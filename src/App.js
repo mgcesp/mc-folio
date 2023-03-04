@@ -19,7 +19,7 @@ import "./App.scss"
 const Layout = () => {
     return (
         <div className="app">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <Outlet />
             <Tabbar></Tabbar>
         </div>
