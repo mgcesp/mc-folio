@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', sans-serif;
+    box-sizing: border-box;
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.app {
+    height: 100vh;
+    min-height: 720px;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
