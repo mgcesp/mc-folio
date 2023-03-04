@@ -61,9 +61,13 @@
     width: 100%;
     max-width: 520px;
     background: #fff;
-    padding: 48px 56px;
+    padding: 40px 36px;
     margin: 0 auto;
     border-radius: 8px;
+
+    @media (min-width: 420px) {
+        padding: 48px 56px;
+    }
 
     .pageTitle {
         display: flex;

@@ -1,9 +1,7 @@
 .tabbar {
     position: sticky;
     bottom: 64px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+    margin: 0 auto;
     max-width: 320px;
 
     .wrapper {
