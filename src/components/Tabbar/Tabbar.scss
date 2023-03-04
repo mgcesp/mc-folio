@@ -1,24 +1,30 @@
 .tabbar {
     position: sticky;
-    bottom: 56px;
+    bottom: 40px;
     margin: 0 auto;
     width: 100%;
     max-width: 320px;
 
+    @media(min-width: 416px) {
+        max-width: 384px;
+    }
+
+    @media(min-width: 520px) {
+        max-width: 488px;
+    }
+
     .wrapper {
         width: 100%;
-        max-width: 520px;
         background: white;
         display: flex;
         padding: 8px;
-        margin: 8px auto;
         border-radius: 8px;
-        box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
         justify-content: space-around;
 
         .tab {
-            width: 36px;
-            height: 36px;
+            width: 40px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,8 +33,8 @@
 
             .iconBox {
                 display: block;
-                width: 24px;
-                height: 24px;
+                width: 28px;
+                height: 28px;
                 color: lightgray;
 
                 svg {
@@ -40,7 +46,7 @@
 
             &:hover {
                 background: #f5f5f5;
-                border: 1px solid lightgray;
+                border: 1px solid #E7E7E7;
 
                 .iconBox {
 
@@ -50,8 +56,8 @@
         }
 
         .tabActive {
-            width: 36px;
-            height: 36px;
+            width: 40px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -59,8 +65,8 @@
 
             .iconBox {
                 display: block;
-                width: 24px;
-                height: 24px;
+                width: 28px;
+                height: 28px;
                 color: black;
 
                 svg {
