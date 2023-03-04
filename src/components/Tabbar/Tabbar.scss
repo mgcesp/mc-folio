@@ -1,8 +1,9 @@
 .tabbar {
-    position: absolute;
+    position: sticky;
     bottom: 48px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+    // left: 50%;
+    // transform: translateX(-50%);
     width: 100%;
     max-width: 320px;
 
@@ -23,7 +24,7 @@
     .wrapper {
         width: 100%;
         // background: white;
-        background: pink;
+        background: blue;
         display: flex;
         padding: 8px;
         border-radius: 8px;
