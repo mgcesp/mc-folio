@@ -52,7 +52,6 @@ const Corp = () => {
                     <p>I helped ship features relating to fundraising, sales processes, onboarding, time management, account management, internal operations and marketing.</p>
                     <p>I elevated the visual language of their products and introduced design system thinking.</p>
                 </div>
-                <Tabbar />
             </div>
         </div >
     )

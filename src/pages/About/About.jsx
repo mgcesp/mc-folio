@@ -36,7 +36,6 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <Tabbar />
         </div>
     )
 }

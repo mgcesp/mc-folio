@@ -20,8 +20,8 @@ const Home = () => {
                     <div className="avatar">
                         <img src="img/mc-avatar-left.png" alt="" />
                     </div>
-                    <h1>Hi, I'm Manuel.</h1>
-                    <p>I create products, websites, and experiences that help businesses grow 📈.</p>
+                    <h1>Hi 👋 <br />I'm Manuel.</h1>
+                    <p>I create websites, mobile apps, experiences, and digital products to help businesses grow 📈.</p>
                 </div>
                 <div className="page">
                     <p>I’m a designer and developer, with a focus on product design, design systems, and UX engineering.</p>
@@ -86,7 +86,6 @@ const Home = () => {
                 <div className="page">
                     <p>I have experience working on web, mobile, branding, interaction design, visual design, and UX / UI design.</p>
                 </div>
-                <Tabbar />
             </div>
         </div>
     )

@@ -9,11 +9,13 @@ import Work from "./pages/Work/Work";
 import Corp from "./pages/Corp/Corp";
 
 import "./App.scss"
+import Tabbar from "./components/Tabbar/Tabbar";
 
 const Layout = () => {
     return (
         <div className="app">
             <Outlet />
+            <Tabbar />
         </div>
     )
 }

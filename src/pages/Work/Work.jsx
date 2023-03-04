@@ -44,7 +44,6 @@ const Work = () => {
                     </div>
                     <p>An e-commerce product that aims to improve the experiences around buying, gifting, and collecting football kits.</p>
                 </div>
-                <Tabbar />
             </div>
         </div>
     )
