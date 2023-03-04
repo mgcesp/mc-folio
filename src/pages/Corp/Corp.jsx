@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Tabbar from "../../components/Tabbar/Tabbar";
 
 const Corp = () => {
     return (
@@ -52,6 +53,7 @@ const Corp = () => {
                     <p>I elevated the visual language of their products and introduced design system thinking.</p>
                 </div>
             </div>
+            <Tabbar />
         </div >
     )
 }

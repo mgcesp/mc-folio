@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import Tabbar from "../../components/Tabbar/Tabbar";
 
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaDribbble } from 'react-icons/fa';
 import { FaCodepen } from 'react-icons/fa';
-
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 
 import "./Home.scss"
-import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     return (
@@ -86,6 +87,7 @@ const Home = () => {
                     <p>I have experience working on web, mobile, branding, interaction design, visual design, and UX / UI design.</p>
                 </div>
             </div>
+            <Tabbar />
         </div>
     )
 }

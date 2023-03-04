@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Tabbar from "../../components/Tabbar/Tabbar";
 
 const Work = () => {
     return (
@@ -44,6 +45,7 @@ const Work = () => {
                     <p>An e-commerce product that aims to improve the experiences around buying, gifting, and collecting football kits.</p>
                 </div>
             </div>
+            <Tabbar />
         </div>
     )
 }

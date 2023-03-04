@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Tabbar from "../../components/Tabbar/Tabbar";
 
 import "./About.scss"
 
@@ -35,6 +36,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <Tabbar />
         </div>
     )
 }
