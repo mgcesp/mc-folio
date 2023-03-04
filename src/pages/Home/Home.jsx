@@ -27,7 +27,7 @@ const Home = () => {
                     <p>I’m a designer and developer, with a focus on product design, design systems, and UX engineering.</p>
                 </div>
                 <div className="page">
-                    <p>You can find me in these social platforms.</p>
+                    <p>Find me in these social media products.</p>
                     <div className="socials">
                         <Link className="socialLink" to="https://twitter.com/manny_pixels" target="_blank">
                             <div className="iconBox">
@@ -39,14 +39,14 @@ const Home = () => {
                                 <FaCodepen />
                             </div>
                         </Link>
-                        <Link className="socialLink" to="https://www.linkedin.com/in/mgcespedes/" target="_blank">
-                            <div className="iconBox">
-                                <FaLinkedin />
-                            </div>
-                        </Link>
                         <Link className="socialLink" to="https://dribbble.com/manolo" target="_blank">
                             <div className="iconBox">
                                 <FaDribbble />
+                            </div>
+                        </Link>
+                        <Link className="socialLink" to="https://www.linkedin.com/in/mgcespedes/" target="_blank">
+                            <div className="iconBox">
+                                <FaLinkedin />
                             </div>
                         </Link>
                     </div>
@@ -69,7 +69,10 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="page">
-                    <p>You can also contact me directly.</p>
+                    <p>I have experience working on web, mobile, branding, marketing, interaction design, visual design, and UX / UI design.</p>
+                </div>
+                <div className="page">
+                    <p>You can contact me directly.</p>
                     <div className="contact">
                         <div className="iconBox">
                             <EmailIcon />
@@ -82,9 +85,6 @@ const Home = () => {
                         </div>
                         <p>786.351.1255</p>
                     </div>
-                </div>
-                <div className="page">
-                    <p>I have experience working on web, mobile, branding, interaction design, visual design, and UX / UI design.</p>
                 </div>
             </div>
         </div>
