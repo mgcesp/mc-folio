@@ -17,6 +17,10 @@
     position: relative;
     background: yellow;
     overflow: hidden;
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    overscroll-behavior: none;
 }
 
 .frame {
@@ -28,6 +32,10 @@
     background: pink;
     position: relative;
     overflow: hidden;
+    touch-action: none;
+    -webkit-overflow-scrolling: none;
+    overflow: hidden;
+    overscroll-behavior: none;
 
     // @media (min-width: 624px) {
     //     max-width: 624px;
