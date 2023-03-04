@@ -86,8 +86,8 @@ const Home = () => {
                 <div className="page">
                     <p>I have experience working on web, mobile, branding, interaction design, visual design, and UX / UI design.</p>
                 </div>
+                <Tabbar />
             </div>
-            <Tabbar />
         </div>
     )
 }
