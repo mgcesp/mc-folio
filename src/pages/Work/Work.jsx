@@ -12,8 +12,8 @@ const Work = () => {
                 </Link>
             </div>
             <div className="page">
-                <h1>Projects</h1>
-                <p>I work on my own projects and ideas. Some are just prototypes and some are more.</p>
+                <h1>Workshop</h1>
+                <p>Recent projects and ideas I've been working on. Including prototypes, concepts, and more.</p>
             </div>
             <div className="page">
                 <div className="pageTitle">
