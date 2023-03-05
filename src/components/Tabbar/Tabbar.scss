@@ -1,41 +1,42 @@
 .tabbar {
-    // position: sticky;
     position: fixed;
-    bottom: 32px;
+    bottom: 16px;
     margin: 0 auto;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 320px;
+    max-width: 520px;
+    padding: 0 16px;
 
-    @media(min-width: 416px) {
-        max-width: 384px;
+    @media (min-width: 696px) {
+        bottom: auto;
+        top: 16px;
+        left: 16px;
+        transform: none;
+        width: 56px;
+        padding: 0;
     }
 
-    @media(min-width: 520px) {
-        max-width: 488px;
+    @media (min-width: 1024px) {
+        top: 16px;
+        left: 50%;
+        transform: translateX(-496px);
     }
-
-    // @media (min-width: 624px) {
-    //     position: absolute;
-    //     top: 32px;
-    //     left: 0;
-    // }
 
     .wrapper {
         width: 100%;
-        // background: white;
         background: white;
         display: flex;
         padding: 8px;
         border-radius: 8px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.10);
         justify-content: space-around;
 
-        // @media (min-width: 624px) {
-        //     flex-direction: column;
-        //     max-width: 56px;
-        // }
+        @media (min-width: 696px) {
+            flex-direction: column;
+            padding: 16px 8px;
+            gap: 16px;
+        }
 
         .tab {
             width: 40px;

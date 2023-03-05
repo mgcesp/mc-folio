@@ -14,10 +14,8 @@ import Tabbar from "./components/Tabbar/Tabbar";
 const Layout = () => {
     return (
         <div className="app">
-            <div className="frame">
-                <Outlet />
-                <Tabbar />
-            </div>
+            <Outlet />
+            <Tabbar />
         </div>
     )
 }
