@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Tabbar from "../../components/Tabbar/Tabbar";
 
 const Corp = () => {
     return (
@@ -20,9 +19,16 @@ const Corp = () => {
                     <h3>Foureyes</h3>
                     <p>2021 - 2022</p>
                 </div>
-                <p>At Foureyes, a SaaS company, I led projects end-to-end, helping design the UX of their platform for automotive dealerships.</p>
-                <p>I shipped features to streamline sales and marketing processes. I transformed conceptual ideas and customer feedback into useful product opportunities.</p>
-                <p>I grew the design system practice by documenting visual patterns, creating workflows, and evolving a component library.</p>
+                <div className="pageContent">
+                    <p>At Foureyes, a SaaS company, I led projects end-to-end, helping design the UX of their platform for automotive dealerships.</p>
+                    <p>I shipped features to streamline sales and marketing processes. I transformed conceptual ideas and customer feedback into useful product opportunities.</p>
+                    <p>I grew the design system practice by documenting visual patterns, creating workflows, and evolving a component library.</p>
+                </div>
+                <div className="pageActions">
+                    <button>
+                        <span>View more</span>
+                    </button>
+                </div>
             </div>
             <div className="page">
                 <div className="pageTitle">
