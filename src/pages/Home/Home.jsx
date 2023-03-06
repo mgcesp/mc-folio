@@ -20,13 +20,54 @@ const Home = () => {
                     <img src="img/mc-avatar-left.png" alt="" />
                 </div>
                 <h1>Hi 👋 <br />I'm Manuel.</h1>
-                <p>I create websites, apps, experiences, and digital products to help businesses grow 📈.</p>
+                <p>I make websites, mobile apps, and other digital products to help businesses grow 📈.</p>
             </div>
             <div className="page">
                 <p>I’m a designer and developer, with a focus on product design, design systems, and UX engineering.</p>
             </div>
             <div className="page">
-                <p>Find me in these social media products.</p>
+                <p>I specialize in designing for resposive web and iOS, and developing with React JS and Swift UI.</p>
+            </div>
+            <div className="page">
+                <p>I craft simple, clean, and transparent user interfaces and user experiences that make products more useful, usable, and valuable.</p>
+            </div>
+            <div className="page">
+                <p>Some companies I've worked for.</p>
+                <div className="companies">
+                    <div className="company">
+                        <h4>Microsoft</h4>
+                    </div>
+                    <div className="company">
+                        <h4>Amazon</h4>
+                    </div>
+                    <div className="company">
+                        <h4>Foureyes</h4>
+                    </div>
+                    <div className="company">
+                        <h4>Snap! Mobile</h4>
+                    </div>
+                </div>
+            </div>
+            <div className="page">
+                <p>I have experience working on UX design, UI design, user research, interaction design, visual design, marketing, and branding.</p>
+            </div>
+            <div className="page">
+                <p>I'm available for client and contract work.</p>
+                <div className="contact">
+                    <div className="iconBox">
+                        <EmailIcon />
+                    </div>
+                    <p>mgcesp@gmail.com</p>
+                </div>
+                <div className="contact">
+                    <div className="iconBox">
+                        <PhoneIphoneIcon />
+                    </div>
+                    <p>786.351.1255</p>
+                </div>
+            </div>
+            <div className="page">
+                <p>Find me in social media.</p>
                 <div className="socials">
                     <Link className="socialLink" to="https://twitter.com/manny_pixels" target="_blank">
                         <div className="iconBox">
@@ -50,41 +91,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="page">
-                <p>Some companies I've worked for.</p>
-                <div className="companies">
-                    <div className="company">
-                        <h4>Microsoft</h4>
-                    </div>
-                    <div className="company">
-                        <h4>Amazon</h4>
-                    </div>
-                    <div className="company">
-                        <h4>Foureyes</h4>
-                    </div>
-                    <div className="company">
-                        <h4>Snap! Mobile</h4>
-                    </div>
-                </div>
-            </div>
-            <div className="page">
-                <p>I have experience working on web, mobile, UI design, UX design, interaction design, visual design, marketing, and branding.</p>
-            </div>
-            <div className="page">
-                <p>Contact me directly.</p>
-                <div className="contact">
-                    <div className="iconBox">
-                        <EmailIcon />
-                    </div>
-                    <p>mgcesp@gmail.com</p>
-                </div>
-                <div className="contact">
-                    <div className="iconBox">
-                        <PhoneIphoneIcon />
-                    </div>
-                    <p>786.351.1255</p>
-                </div>
-            </div>
+            <div className="page blank"></div>
         </div>
     )
 }

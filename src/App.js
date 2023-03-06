@@ -7,6 +7,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Work from "./pages/Work/Work";
 import Corp from "./pages/Corp/Corp";
+import Project from "./pages/Project/Project";
 
 import "./App.scss"
 import Tabbar from "./components/Tabbar/Tabbar";
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "/Corp",
                 element: <Corp />
+            },
+            {
+                path: "/Project",
+                element: <Project />
             },
         ]
     }
