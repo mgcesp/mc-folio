@@ -91,7 +91,11 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="page blank"></div>
+            <div className="page blank">
+                <p>Manuel G. Cespedes</p>
+                <p>Manuel G. Cespedes</p>
+                <p>Manuel G. Cespedes</p>
+            </div>
         </div>
     )
 }

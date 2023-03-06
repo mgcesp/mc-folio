@@ -261,5 +261,8 @@
 
 .blank {
     background: transparent;
-    height: 40px;
+
+    p {
+        color: transparent;
+    }
 }
