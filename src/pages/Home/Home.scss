@@ -109,6 +109,20 @@
         }
     }
 
+    .pageLists {
+
+        ul,
+        li {
+            font-size: 18px;
+            line-height: 32px;
+        }
+
+        ul {
+            margin-bottom: 16px;
+        }
+
+    }
+
     .avatar {
         width: 128px;
         height: 128px;
@@ -190,9 +204,20 @@
     background: #fff;
     margin: 0 auto;
     border-radius: 8px;
+    overflow: hidden;
 
     .pageImg {
+        display: block;
         width: 100%;
+        object-fit: cover;
+    }
+
+    .pageImgDesc {
+        p {
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+        }
     }
 
     h3 {
