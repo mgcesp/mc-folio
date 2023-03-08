@@ -21,9 +21,9 @@ const Corp = () => {
                 <p>I shipped features to streamline sales and marketing processes. I transformed conceptual ideas and customer feedback into useful product opportunities.</p>
                 <p>I grew the design system practice by documenting visual patterns, creating workflows, and evolving a component library.</p>
                 <div className="pageActions">
-                    <Link to="/project">
+                    <Link to="/projects">
                         <button>
-                            <span>View more</span>
+                            <span>View projects</span>
                             <ArrowForwardIcon />
                         </button>
                     </Link>
@@ -40,7 +40,7 @@ const Corp = () => {
                 <div className="pageActions">
                     <Link to="">
                         <button>
-                            <span>View more</span>
+                            <span>View projects</span>
                             <ArrowForwardIcon />
                         </button>
                     </Link>
@@ -57,7 +57,7 @@ const Corp = () => {
                 <div className="pageActions">
                     <Link to="">
                         <button>
-                            <span>View more</span>
+                            <span>View projects</span>
                             <ArrowForwardIcon />
                         </button>
                     </Link>
@@ -74,7 +74,7 @@ const Corp = () => {
                 <div className="pageActions">
                     <Link to="">
                         <button>
-                            <span>View more</span>
+                            <span>View projects</span>
                             <ArrowForwardIcon />
                         </button>
                     </Link>

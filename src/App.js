@@ -8,6 +8,7 @@ import About from "./pages/About/About";
 import Work from "./pages/Work/Work";
 import Corp from "./pages/Corp/Corp";
 import Project from "./pages/Project/Project";
+import Projects from "./pages/Projects/Projects";
 
 import "./App.scss"
 import Tabbar from "./components/Tabbar/Tabbar";
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
             {
                 path: "/Corp",
                 element: <Corp />
+            },
+            {
+                path: "/Projects",
+                element: <Projects />
             },
             {
                 path: "/Project",

@@ -6,7 +6,7 @@
 
     @media (min-width: 696px) {
         bottom: auto;
-        top: 60px;
+        top: 16px;
         left: 16px;
         transform: none;
         width: 56px;
@@ -24,11 +24,11 @@
         display: flex;
         padding: 8px;
         justify-content: space-around;
-        box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.10);
+        box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.10);
 
         @media (min-width: 696px) {
             border-radius: 8px;
-            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
             flex-direction: column;
             padding: 32px 8px;
             gap: 32px;
