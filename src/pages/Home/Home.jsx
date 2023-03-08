@@ -29,7 +29,7 @@ const Home = () => {
                 <p>I specialize in designing for resposive web and iOS, and developing with React JS and Swift UI.</p>
             </div>
             <div className="page">
-                <p>I craft simple, clean, and transparent user interfaces and user experiences that make products more useful, usable, and valuable.</p>
+                <p>I craft simple, clean, and transparent user experiences and user interfaces to make products more useful, valuable, and thoughtful.</p>
             </div>
             <div className="page">
                 <p>Some companies I've worked for.</p>
@@ -48,9 +48,15 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="page">
+                <p>I plan, conduct, and synthesize user research to inform and validate product decisions and to understand complex scenarios.</p>
+            </div> */}
             <div className="page">
-                <p>I have experience working on UX design, UI design, user research, interaction design, visual design, marketing, and branding.</p>
+                <p>I have experience with web design, app design, product design, UX design, UX prototyping, user research, visual design, marketing, and branding.</p>
             </div>
+            {/* <div className="page">
+                <p>I've worked on tech in the enterprise and consumer space, including IT management, brand management, fundraising, </p>
+            </div> */}
             <div className="page">
                 <p>I'm available for client and contract work.</p>
                 <div className="contact">

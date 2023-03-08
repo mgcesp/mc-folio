@@ -21,7 +21,7 @@ const Project = () => {
             <div className="page about">
                 <h1>Foureyes</h1>
                 <p>
-                    A SaaS company that offers solutions for automating sales and marketing processes.
+                    A SaaS product that offers solutions for automating sales and marketing processes.
                 </p>
             </div>
             <div className="pageProject">
@@ -32,7 +32,7 @@ const Project = () => {
                     </div>
                     <p>Jul 2021 - Dec 2021</p>
                     <h4>Overview</h4>
-                    <p>The product team at Foureyes was growing and working on multiple products, which led to the need to evolve the existing design system. The updated design system aimed to increase design efficiency, improve cross-functional collaboration, and streamline product development. The results were a more efficient design process, faster decision-making, and increased product quality.</p>
+                    <p>The product team was growing and working on multiple products, which led to the need to evolve the existing design system. The updated design system aimed to increase design efficiency, improve cross-functional collaboration, and streamline product development. The results were a more efficient design process, faster decision-making, and increased product quality.</p>
                     <div className="pageActions">
                         <Link to="/project">
                             <button>
