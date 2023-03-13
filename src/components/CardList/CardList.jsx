@@ -1,10 +1,8 @@
 import React from 'react'
 
-import Card from "../Card/Card"
+import Card from "../Card/Card";
 
-import "./List.scss"
-
-const List = () => {
+const CardList = () => {
 
     const data = [
         {
@@ -79,18 +77,17 @@ const List = () => {
             oldPrice: 13,
             price: 11
         },
-
-
-
     ];
 
     return (
-        <div className="list">
-            {data?.map(item => (
-                <Card item={item} key={item.id} />
-            ))}
+        <div>
+            <div className="cardList">
+                {data?.map(item => (
+                    <Card item={item} key={item.id} />
+                ))}
+            </div>
         </div>
     )
 }
 
-export default List
+export default CardList

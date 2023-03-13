@@ -6,7 +6,7 @@ import {
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Work from "./pages/Work/Work";
-import Corp from "./pages/Corp/Corp";
+import WorkShop from "./pages/WorkShop/WorkShop";
 import Project from "./pages/Project/Project";
 import Projects from "./pages/Projects/Projects";
 
@@ -36,19 +36,19 @@ const router = createBrowserRouter([
                 element: <About />
             },
             {
-                path: "/Work",
+                path: "/work",
                 element: <Work />
             },
             {
-                path: "/Corp",
-                element: <Corp />
+                path: "/workshop",
+                element: <WorkShop />
             },
             {
-                path: "/Projects",
+                path: "/projects/:id",
                 element: <Projects />
             },
             {
-                path: "/Project",
+                path: "/project/:id",
                 element: <Project />
             },
         ]

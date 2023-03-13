@@ -1,26 +1,31 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import "./Card.scss"
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-const card = ({ item }) => {
+const Card = (item) => {
     return (
-        <Link className="link" to={`/product/${item.id}`}>
-            <div className='card'>
-                <div className="image">
-                    {item.isNew && <span>New Season</span>}
-                    <img src={item.img} className="mainImg" alt="" />
-                    <img src={item.img2} className="secondImg" alt="" />
-                </div>
-                <h2>{item.title}</h2>
-                <div className="prices">
-                    <h3>${item.oldPrice}</h3>
-                    <h3>${item.price}</h3>
-                </div>
+        <div className="page">
+            <div className="image">
+                {item.isHeader && <span>Header</span>}
             </div>
-        </Link>
-
+            <div className="pageTitle">
+                <h3>{item.title}</h3>
+                <p>{item.date}</p>
+            </div>
+            <p>At Foureyes, a SaaS company, I led projects end-to-end, helping design the UX of their platform for automotive dealerships.</p>
+            <p>I shipped features to streamline sales and marketing processes. I transformed conceptual ideas and customer feedback into useful product opportunities.</p>
+            <p>I grew the design system practice by documenting visual patterns, creating workflows, and evolving a component library.</p>
+            <div className="pageActions">
+                <Link to={`/projects/${item.id}`}>
+                    <button>
+                        <span>View projects</span>
+                        <ArrowForwardIcon />
+                    </button>
+                </Link>
+            </div>
+        </div>
     )
 }
 
-export default card
+export default Card

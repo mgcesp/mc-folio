@@ -11,7 +11,7 @@ const Project = () => {
             <div className='projectNav'>
                 <div className="wrapper">
                     <div className="left">
-                        <Link to="/Projects">
+                        <Link to="/projects/1">
                             <ArrowBackIcon />
                         </Link>
                     </div>
@@ -24,7 +24,7 @@ const Project = () => {
                 <p>Foureyes | 2022</p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
             </div>
             <div className="page">
                 <div className="pageTitle">
@@ -38,7 +38,7 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Prev. Design System Ecosystem</p>
                 </div>
@@ -52,7 +52,7 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Prev. Design UI Kit</p>
                 </div>
@@ -66,7 +66,7 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Latest Design UI Kit</p>
                 </div>
@@ -80,7 +80,7 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Latest Design System Ecosystem</p>
                 </div>
@@ -94,19 +94,19 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>UX Patten Guidelines</p>
                 </div>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Component Breakdowns</p>
                 </div>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Workflow Templates</p>
                 </div>
@@ -120,7 +120,7 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>User Brainstorm</p>
                 </div>
@@ -150,7 +150,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Jobs-to-be-done by user</p>
                 </div>
@@ -171,19 +171,19 @@ const Project = () => {
                 </div>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Design System Audit</p>
                 </div>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Design System Presentations</p>
                 </div>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Design System Reference Site</p>
                 </div>
@@ -205,7 +205,7 @@ const Project = () => {
                 </p>
             </div>
             <div className="pageProject">
-                <img src="img/image_placeholder.png" alt="" className="pageImg" />
+                <img src="/img/image_placeholder.png" alt="" className="pageImg" />
                 <div className="pageImgDesc">
                     <p>Design System Roadmap</p>
                 </div>

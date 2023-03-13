@@ -24,14 +24,14 @@ const Tabbar = () => {
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => (isActive ? activeClassName : inactiveClassname)}
-                    to="/corp">
+                    to="/work">
                     <div className="iconBox">
                         <BusinessIcon />
                     </div>
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => (isActive ? activeClassName : inactiveClassname)}
-                    to="/work">
+                    to="/workshop">
                     <div className="iconBox">
                         <WorkIcon />
                     </div>

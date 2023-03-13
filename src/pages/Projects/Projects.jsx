@@ -1,17 +1,22 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+
+import CardList from '../../components/CardList/CardList'
 import CodepenEmbed from "../../components/CodepenEmbed/CodepenEmbed";
 
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import "./Projects.scss"
 
 const Projects = () => {
+    const jobId = parseInt(useParams().id)
+
     return (
         <div className="feed">
             <div className='projectNav'>
                 <div className="wrapper">
                     <div className="left">
-                        <Link to="/Corp">
+                        <Link to="/work">
                             <ArrowBackIcon />
                         </Link>
                     </div>
@@ -35,7 +40,7 @@ const Projects = () => {
                         The product team was growing and working on multiple products, this led to the need to evolve the existing design system. The updated design system aimed to increase design efficiency and improve cross-functional collaboration.
                     </p>
                     <div className="pageActions">
-                        <Link to="/project">
+                        <Link to="/project/1">
                             <button>
                                 <span>Read more</span>
                             </button>

@@ -29,7 +29,7 @@ const Home = () => {
                 <p>I specialize in designing for resposive web and iOS, and developing with React JS and Swift UI.</p>
             </div>
             <div className="page">
-                <p>I craft simple, clean, and transparent user experiences and user interfaces to make products more useful, valuable, and thoughtful.</p>
+                <p>I craft simple, clean, and transparent user experiences and interfaces to make products more useful, valuable, and thoughtful.</p>
             </div>
             <div className="page">
                 <p>Some companies I've worked for.</p>
